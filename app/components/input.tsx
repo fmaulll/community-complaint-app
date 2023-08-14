@@ -14,6 +14,7 @@ const Input: FC<Props> = ({ type, icon }) => {
   const handleShowPassword = () => {
     setShow(!show);
   };
+  
   const handleFocus = () => {
     if (inputRef.current) {
       inputRef.current?.focus();
